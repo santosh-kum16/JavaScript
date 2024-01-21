@@ -1,5 +1,5 @@
 
-//Variable is like a Container where we can Store values which uses in our code again and again.
+/*/Variable is like a Container where we can Store values which uses in our code again and again.
 
 // Declaration of Variables:-
 
@@ -36,7 +36,7 @@ console.log(role);
 /* So, above line Out put is 'Undefined'
 
 Now defining role var to some value
-*/
+
 
 role = 'Developer';
 
@@ -46,7 +46,7 @@ console.log(role);
 
 // NOTE- camelCase is used to define variable name and must not use of Numbers and Special symbols excepts- Dollar symbol and Underscore.
 
-//************************* */
+//************************* 
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -68,7 +68,7 @@ console.log(typeof year);
 
 console.log(typeof null);
 
-/******************************* */
+/******************************* 
 // let, const and var
 
 let age = 30;
@@ -83,3 +83,16 @@ job = 'teacher'
 
 lastName = 'Schmedtmann';
 console.log(lastName);
+
+/*///////////////////  Variable Mutation   ////////////////////////////////////
+/*
+var year=2020;
+
+//Variable mutation
+year = 'Twenty Twenty';
+
+//Taking input from Window and output show to console
+var firstName='Santosh';
+var lastName=prompt('What is his last Name?');
+console.log(firstName+ ' '+lastName);
+*/
