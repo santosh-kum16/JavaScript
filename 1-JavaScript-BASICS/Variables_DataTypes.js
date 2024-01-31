@@ -96,3 +96,25 @@ var firstName='Santosh';
 var lastName=prompt('What is his last Name?');
 console.log(firstName+ ' '+lastName);
 */
+
+/*
+ ***********  Basic Operators *********
+ */
+// Math Operators
+ var currentYear, yearSam, YearMark;
+ currentYear = 2024;
+
+ yearSam = currentYear - 20;
+ YearMark = currentYear -22;
+
+ console.log(yearSam);
+ console.log(YearMark);
+ console.log(currentYear + 2);
+ console.log(currentYear - 2);
+ console.log(currentYear * 2);
+ console.log(currentYear / 2);
+ console.log(currentYear % 2);
+
+ //Logical Operators
+var samOld = yearSam < YearMark;
+console.log(samOld);
