@@ -118,3 +118,26 @@ console.log(firstName+ ' '+lastName);
  //Logical Operators
 var samOld = yearSam < YearMark;
 console.log(samOld);
+
+// Assignment operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
+
+// Operator Precedence
+const now = 2024;
+const myAge = now - 1992;
+const ageVansh = now - 2018;
+
+console.log(now - 1992 > now - 2018);
+
+let x1, y;
+x1 = y = 25 - 10 - 5; // x1 = y = 10, x1 = 10
+console.log(x1, y);
+
+const averageAge = (myAge + ageVansh) / 2;
+console.log(ageJonas, ageVansh, averageAge);
