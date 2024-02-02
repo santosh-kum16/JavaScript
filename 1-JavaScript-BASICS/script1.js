@@ -99,7 +99,7 @@ console.log(firstName+ ' '+lastName);
 
 /*
  ***********  Basic Operators *********
- */
+ 
 // Math Operators
  var currentYear, yearSam, YearMark;
  currentYear = 2024;
@@ -141,3 +141,26 @@ console.log(x1, y);
 
 const averageAge = (myAge + ageVansh) / 2;
 console.log(ageJonas, ageVansh, averageAge);
+
+
+/////////////////////////////////////////
+// Taking Decisions: if / else Statements
+const age = 15;
+
+if (age >= 18) {
+  console.log('Hardik can start driving license');
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Hardik is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2012;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+*/
