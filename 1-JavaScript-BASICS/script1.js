@@ -167,6 +167,7 @@ console.log(century);
 
 ////////////////////////////////////
 // The switch Statement
+/** 
 const day = 'tuesday';
 
 switch (day) {
@@ -204,3 +205,24 @@ if (day === 'monday') {
 } else {
   console.log('Not a valid day!');
 }
+
+*/
+///////////--- FUNCTIONS ---//////////////
+//[1] Take Nothing Return Nothing
+/*
+function nameDisplay() {
+    console.log('My name is Santosh');
+  }
+  
+  // calling/ invoking function
+  nameDisplay();
+  nameDisplay();
+
+//[2] Take Something Return Something...
+function  calculateAge(birthYear){
+    return 2024 - birthYear;
+}
+
+var ageSantosh = calculateAge(1992);
+console.log(ageSantosh);
+*/
