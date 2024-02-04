@@ -164,3 +164,43 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 */
+
+////////////////////////////////////
+// The switch Statement
+const day = 'tuesday';
+
+switch (day) {
+  case 'monday': // day === 'monday'
+    console.log('This is Monaday');
+    break;
+  case 'tuesday':
+    console.log('Thia is Tuesday');
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log('This is Thursday');
+    break;
+  case 'friday':
+    console.log('This is Friday');
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy the weekend');
+    break;
+  default:
+    console.log('Not a valid day!');
+}
+
+if (day === 'monday') {
+  console.log('This is Monaday');
+} else if (day === 'tuesday') {
+  console.log('This is tuesday');
+} else if (day === 'wednesday' || day === 'thursday') {
+  console.log('Write code examples');
+} else if (day === 'friday') {
+  console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+  console.log('Enjoy the weekend :D');
+} else {
+  console.log('Not a valid day!');
+}
