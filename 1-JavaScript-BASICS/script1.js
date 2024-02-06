@@ -371,3 +371,37 @@ if (friends.includes('Santosh')) {
   console.log('You have a friend called Santosh');
 }
 */
+//*************************************************************************
+// Introduction to Objects
+
+const arr = [
+  'Santosh',
+  'Kumar',
+  2024 - 1992,
+  'Programmer',
+  ['Sanjay', 'Ajay', 'Nitish']
+];
+
+const objects = {
+  firstName: 'Santosh',
+  lastName: 'Kumar',
+  age: 2024 - 1992,
+  job: 'Programmer',
+  friends: ['Sanjay', 'Ajay', 'Nitish']
+};
+console.log('This is ARRAY: '+arr);
+console.log('This is Object: '+objects);
+
+//****************************************************************************************** */
+// Dot vs. Bracket Notation
+
+console.log(objects.lastName);
+console.log(objects['lastName']);
+
+const nameKey = 'Name';
+console.log(objects['first' + nameKey]);
+console.log(objects['last' + nameKey]);
+
+objects.location = 'Portugal';
+objects['twitter'] = '@jonasschmedtman';
+console.log(objects);
