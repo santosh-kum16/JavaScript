@@ -266,7 +266,7 @@ function calcAge1(birthYear) {
 
   /////************************************
 // Functions Calling Other Functions
-
+/*
 function cutFruitPieces(fruit) {
   return fruit * 4;
 }
@@ -303,3 +303,30 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 
 console.log(yearsUntilRetirement(1991, 'Ajay'));
 console.log(yearsUntilRetirement(1950, 'Sanjay'));
+*/
+//******************************************************************
+// Introduction to Arrays
+
+const friend1 = 'Nitish';
+const friend2 = 'Ajay';
+const friend3 = 'Sanjay';
+
+const friends = ['Amrit', 'Rahul', 'Abhishek']; //Declaring friends ARRAY with values
+console.log('Displaying friends: '+friends);//Displaying ARRAY
+
+const year= new Array(1991, 1984, 2008, 2020);  //Declaration of Array
+console.log(year);
+
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = 'Vijay';
+console.log(friends);
+
+const firstName = 'Kamlesh';
+const vipu = [firstName, 'Arun', 2037 - 1991, 'teacher', friends];
+console.log(vipu);
+console.log(vipu.length);
