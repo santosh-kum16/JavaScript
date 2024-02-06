@@ -306,7 +306,7 @@ console.log(yearsUntilRetirement(1950, 'Sanjay'));
 */
 //******************************************************************
 // Introduction to Arrays
-
+/*
 const friend1 = 'Nitish';
 const friend2 = 'Ajay';
 const friend3 = 'Sanjay';
@@ -330,3 +330,28 @@ const firstName = 'Kamlesh';
 const vipu = [firstName, 'Arun', 2037 - 1991, 'teacher', friends];
 console.log(vipu);
 console.log(vipu.length);
+*/
+//********************** OPERATIONS ON ARRAY *******************/
+/*
+1. Add Elements
+2. Remove Elements
+*/
+
+// Add elements
+const friends = ['Sumit','Durgesh']
+const newLength = friends.push('Ajay');//Adding element to ARRAY at last-Index.
+
+console.log(friends);// Display updated Array
+console.log(newLength); //Getting updated length offrinds array i.e 3
+
+friends.unshift('Jogi');//unshift method adding element at 0th-Index.
+console.log(friends);
+
+// Remove elements
+friends.pop(); // Last
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift(); // First
+console.log(friends);
