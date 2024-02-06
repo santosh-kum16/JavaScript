@@ -333,9 +333,9 @@ console.log(vipu.length);
 */
 //********************** OPERATIONS ON ARRAY *******************/
 /*
-1. Add Elements
-2. Remove Elements
-*/
+1. Add Elements -> push(), unshift()
+2. Remove Elements-> pop(), shift()
+
 
 // Add elements
 const friends = ['Sumit','Durgesh']
@@ -354,4 +354,20 @@ console.log(popped);
 console.log(friends);
 
 friends.shift(); // First
+console.log('Friends Displaying: '+friends);
+
+//******** IndexOf method and Includes ********
+
+console.log(friends.indexOf('Sumit'));
+console.log(friends.indexOf('Vijay'));
+
+friends.push(23);
+console.log(friends.includes('Sanjeev'));
+console.log(friends.includes('Deepak'));
+console.log(friends.includes(23));
 console.log(friends);
+
+if (friends.includes('Santosh')) {
+  console.log('You have a friend called Santosh');
+}
+*/
