@@ -1,6 +1,6 @@
 // ES6 class Declaration
 
-class Person {
+/*class Person {
     constructor(name) {
         this.name = name;
     }
@@ -16,7 +16,7 @@ In the Person class, the constructor() is where you can initialize the propertie
 
 The following creates a new Person object, which will automatically call the constructor() of the Person class:
  */
-
+/*
 let santosh = new Person("Santosh Kumar");
 
 let name = santosh.getName();
@@ -34,4 +34,4 @@ console.log(santosh instanceof Object); // true
  * -> class declarations are not hoisted like function declarations.
  * -> For example, if you place the following code above the Person class declaration section, you will get a ReferenceError.
  */
-let john = new Person("John Doe");
+//let santosh = new Person("Santosh Kumar");
