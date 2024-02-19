@@ -29,3 +29,9 @@ console.log(typeof Person); // function
 //The santosh object is also an instance of the Person and Object types:-
 console.log(santosh instanceof Person); // true
 console.log(santosh instanceof Object); // true
+
+/** CLASS vs Custom Type
+ * -> class declarations are not hoisted like function declarations.
+ * -> For example, if you place the following code above the Person class declaration section, you will get a ReferenceError.
+ */
+let john = new Person("John Doe");
